@@ -2,6 +2,26 @@ body {
 	background-color: #E5EFE5;
 }
 
-h1, p {
-	color: #002828;
+h1, p, li, ul {
+	color: #000026;
+	text-align: center;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-family: "Arial Black";
+}
+
+a:link, a:visited {
+  	display: block;
+	width: 120px;
+	font-weight: bold;
+    color: #FFFFFF;
+    background-color: #170b35;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #B5D6C3;
 }
