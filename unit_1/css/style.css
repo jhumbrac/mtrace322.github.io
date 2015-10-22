@@ -2,18 +2,33 @@ body {
 	background-color: #E5EFE5;
 }
 
-h1, p, li, ul {
+h1 {
 	color: #000026;
 	text-align: center;
 	font-weight:bold;
 	text-transform: uppercase;
+	font-family: "Arial Black";
+	font-size: 500%;
+}
+
+h2 {
+	color: #000026;
+	text-align: center;
+	font-weight:bold;
+	font-family: "Arial Black";
+	font-size: 250%;
+}
+
+
+li, ul, p, h2 {
+	color: #000026;
+	text-align: left;
 	font-family: "Arial Black";
 }
 
 a:link, a:visited {
   	display: block;
 	width: 120px;
-	font-weight: bold;
     color: #FFFFFF;
     background-color: #170b35;
     text-align: center;
