@@ -1,43 +1,18 @@
 body {
 	background-color: #FAEBD7;
+	color:#000026;
+	font-family: helvetica, arial, sans-serif;
 }
 
 h1 {
-	color: #000026;
 	text-align: center;
 	font-weight:bold;
 	text-transform: uppercase;
-	font-family: "Helvetica";
 	font-size: 500%;
 }
-
-#slogan {
-	height: 480px;
-	width: 480px;
-	margin: 0 auto;
-	background-image: url("../images/hero.jpg");
-	background-size: 480px, 480px;
-	background-repeat: no-repeat;
-	background-position: center;
-	color: #000000;
-	text-align: center;
-	vertical-align: middle;
-	font-variant: small-caps;
-	font-weight:bold;
-	font-family: "Helvetica";
-	font-size: 250%;
-}
-
 p, h2 {
-	color: #000026;
 	text-align: left;
-	font-family: "Helvetica";
 }
-
-#contact {
-	vertical-align: center;
-}
-
 a:link, a:visited {
   	display: block;
 	width: 120px;
@@ -51,4 +26,27 @@ a:link, a:visited {
 
 a:hover, a:active {
     background-color: #B5D6C3;
+}
+#slogan {
+	margin: 0 auto;
+	color: #000000;
+	text-align: center;
+	font-variant: small-caps;
+	font-weight:bold;
+	font-size: 250%;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	width:100%;
+}
+.imagecaption {
+	margin:auto;
+	position:relative;
+	width:600px;
+}
+.imagecaption img {
+	width:100%;
+}
+#contact {
+	vertical-align: center;
 }
